@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://satquery-ai-backend-kchs.onrender.com";
 
 function App() {
   const [image, setImage] = useState(null);
@@ -492,3 +492,4 @@ function App() {
 }
 
 export default App;
+
